@@ -1,2 +1,3 @@
-# rust_the_book
-Learn Rust – Get started with Rust
+# Rust the Book
+
+[Learn Rust](https://doc.rust-lang.org/book/) – Get started with Rust
