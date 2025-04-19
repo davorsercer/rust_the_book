@@ -1,1 +1,0 @@
-/Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/the_book/projects/functions/target/debug/functions: /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/the_book/projects/functions/src/main.rs
