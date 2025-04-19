@@ -1,0 +1,1 @@
+/Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/the_book/projects/hello_cargo/target/debug/hello_cargo: /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/the_book/projects/hello_cargo/src/main.rs
