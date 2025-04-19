@@ -1,1 +1,1 @@
-/Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/the_book/projects/ownership/target/debug/ownership: /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/the_book/projects/ownership/src/main.rs
+/Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/rust_the_book/ownership_4-1/target/debug/ownership: /Users/davorsercer/Library/CloudStorage/Dropbox/Code/rust/rust_the_book/ownership_4-1/src/main.rs
