@@ -1,26 +1,21 @@
-fn main() {
-    let string1 = String::from("abcd");
-    let string2 = "xyz";
-
-    let result =
-        longest_with_an_announcement(string1.as_str(), string2, "Today is someone's birthday!");
-    println!("The longest string is {result}");
+fn prints_and_returns_10(a: i32) -> i32 {
+    println!("I got the value {a}");
+    10
 }
 
-use std::fmt::Display;
+#[cfg(test)]
+mod tests {
+    use super::*;
 
-fn longest_with_an_announcement<'a, T>(x: &'a str, y: &'a str, ann: T) -> &'a str
-where
-    T: Display,
-{
-    println!("Announcement! {ann}");
-    if x.len() > y.len() {
-        x
-    } else {
-        y
+    #[test]
+    fn this_test_will_pass() {
+        let value = prints_and_returns_10(4);
+        assert_eq!(value, 10);
+    }
+
+    #[test]
+    fn this_test_will_fail() {
+        let value = prints_and_returns_10(8);
+        assert_eq!(value, 5);
     }
 }
-
-// The function longest_with_an_announcement takes two string slices and a value of any type that implements the Display trait.
-// It prints an announcement and returns the longest of the two string slices.
-// The lifetime 'a indicates that the returned string slice will live at least as long as the shorter of the two input string slices.
